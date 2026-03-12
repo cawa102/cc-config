@@ -5,7 +5,7 @@ description: Use when you have a written implementation plan with 3+ independent
 
 # Team Development
 
-Execute an implementation plan using TeamCreate with parallel developer agents. Each developer follows TDD, including 'tdd-workflow' skill and 'testing.md' rule independently, coordinated by a team lead through a shared task list.
+Execute an implementation plan using TeamCreate with parallel developer agents. Each developer follows TDD, including 'test-driven-development' skill and 'testing.md' rule independently, coordinated by a team lead through a shared task list.
 
 **Core principle:** TeamCreate for parallel TDD development + Task sub-agents for review/E2E = maximum throughput with quality gates
 
@@ -15,7 +15,7 @@ Execute an implementation plan using TeamCreate with parallel developer agents. 
 Have implementation plan in docs/plans/?
   ├─ No  → Use /brainstorming then /writing-plans first
   └─ Yes → Are there 3+ independent tasks?
-              ├─ No  → Use subagent-driven-development (tdd-workflow skill and subagents)
+              ├─ No  → Use subagent-driven-development (test-driven-development skill and subagents)
               └─ Yes → ★ Use this skill (team-development)
 ```
 

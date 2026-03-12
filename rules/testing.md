@@ -10,7 +10,8 @@ Test Types (ALL required):
 ## Test-Driven Development
 
 MANDATORY workflow:
-1. Write test first (RED)
+1. Planning
+2. Write test first (RED)
 2. Run test - it should FAIL
 3. Write minimal implementation (GREEN)
 4. Run test - it should PASS
@@ -25,6 +26,7 @@ MANDATORY workflow:
 
 ## Related Skills
 
+- `/test-driven-development` - TDD core skill
 - `/tdd` - TDD workflow (RED → GREEN → REFACTOR)
 - `/team-dev` - Parallel development with TDD per developer
 - `/test-coverage` - Verify coverage targets

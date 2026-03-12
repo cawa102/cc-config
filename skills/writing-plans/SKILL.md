@@ -132,7 +132,7 @@ After saving the plan, analyze its characteristics and recommend an execution ap
 **Recommendation: [1 or 2] — [1-2 sentence justification based on the plan's task count, independence, and complexity]"**
 
 **If Subagent-Driven chosen:**
-- **REQUIRED ACTION:** Use "/tdd" command to invoke "tdd-guide" agent with "tdd-workflow" skill
+- **REQUIRED ACTION:** Use "/tdd" command to invoke "tdd-guide" agent with "test-driven-development" skill
 - Stay in this session
 - Fresh subagent per task + code review
 
